@@ -138,7 +138,8 @@ img {max-width: 100%;}
     font-weight: 500;
 }
 
-.description h3 .red, .container__physical-security-item .red {
+.description h3 .red, 
+.container__physical-security-item .red {
     color: red;
 }
 
@@ -174,7 +175,8 @@ img {max-width: 100%;}
     letter-spacing: 0.2px;
 }
 
-.main .description .button-apple, .main .description .button-play {
+.main .description .button-apple, 
+.main .description .button-play {
     width: 46px;
     height: 46px;
     margin-left: 19px;
@@ -575,8 +577,7 @@ background-color: #6993e9;
 .footer .menus {
     display: flex;
     justify-content: flex-end;
-    width: 70%;
-    
+    width: 70%;    
 }
 
 .footer h5 {
@@ -660,7 +661,10 @@ background-color: #6993e9;
     bottom: 4px;
 }
 
-.footer__company-nav, .footer__legal-nav, .footer__neutronMail-nav, .footer__partners {
+.footer__company-nav, 
+.footer__legal-nav, 
+.footer__neutronMail-nav, 
+.footer__partners {
     direction: rtl;
 }
 
@@ -689,7 +693,7 @@ background-color: #6993e9;
     width: 31%;
 }
 
-.footer .footer__neutronMail-nav {
+.footer .footer__neutronmail-nav {
     color: rgba(92, 92, 92, 255);
     margin-right: -2px;
     width: 25%;
@@ -960,5 +964,4 @@ background-color: #6993e9;
     }
     .social__row li:not(:last-child):after {display: none;}
     .footer .footer__social-and-copyright .social__row {display: block;}
-}
-    
+}  
